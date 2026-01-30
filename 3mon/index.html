@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="formAppeal">
+      <div class="wrap">
+        <label for="nmae">Ваше имя</label>
+        <input type="text" name="name" id="nmae" />
+      </div>
+      <div class="wrap">
+        <label for="email">Ваш e-mail</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <select class="appealSelect" name="appealSelect" id="appeal">
+        <option value="1">Выберите</option>
+        <option value="2">жалоба</option>
+        <option value="3">вопрос</option>
+      </select>
+      <div class="wrap">
+        <label for="messege">Сообщение</label>
+        <textarea type="text" name="messege" id="messege"></textarea>
+      </div>
+      <button class="btnSend">Отпарвить</button>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
